@@ -18,28 +18,31 @@ var supportsCssVars = function supportsCssVars() {
 supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
 	<body class="demo-1 loading">
+		<audio id="background-audio">
+			<source src="./xinhtuoi.mp3" type="audio/mpeg">
+		</audio>
 		<main>
 			<div class="message">Please view this demo on a desktop to see the effect.</div>
 			<div class="frame">
 			</div>
 			<div class="content">
 				<div class="grid">
-					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(./img/img1.png);" class="hover" ></div></div>
-					<div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(./img/img3.jpg);" class="hover"></div></div>
-					<div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(./img/img4.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(./img/img10.jpg);" class="hover" ></div></div>
+					<div class="grid__item pos-3"><div class="grid__item-img" style="background-image:url(./img/img5.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-4"><div class="grid__item-img" style="background-image:url(./img/img1.jpg);" class="hover"></div></div>
 					<div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(./img/img2.jpg);" class="hover"></div></div>
-					<div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(./img/img5.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-5"><div class="grid__item-img" style="background-image:url(./img/img8.jpg);" class="hover"></div></div>
 					<div class="grid__item pos-6"><div class="grid__item-img" style="background-image:url(./img/img6.jpg);" class="hover"></div></div>
 					<div class="grid__item pos-7"><div class="grid__item-img" style="background-image:url(./img/img7.jpg);" class="hover"></div></div>
-					<div class="grid__item pos-8"><div class="grid__item-img" style="background-image:url(./img/img8.jpg);" class="hover"></div></div>
+					<div class="grid__item pos-8"><div class="grid__item-img" style="background-image:url(./img/img4.jpg);" class="hover"></div></div>
 					<div class="grid__item pos-9"><div class="grid__item-img" style="background-image:url(./img/img9.jpg);" class="hover"></div></div>
-					<div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(./img/img10.png);" class="hover"></div></div>
+					<div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(./img/img3.jpg);" class="hover"></div></div>
 				</div>
                 <h2 class="content__title no-select">
-					<span>Love</span>
+					<span>Hương</span>
 				</h2>
 				<h2 class="content__title no-select">
-					<span class="content__title-sub">Chúc em 8/3 xinh đẹp như ảnh trên mạng</span>
+					<span class="content__title-sub">Chúc em 8/3 có tất cả, ngoại trừ vất vả ❤❤❤</span>
 				</h2>
 			</div>
 		</main>
@@ -48,4 +51,12 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 		</svg>
 		<script src="./script.js"></script>
 	</body>
+	<script>
+		document.addEventListener("click", function() {
+			var audio = document.getElementById("background-audio");
+			if (audio.paused) {
+				audio.play();
+			}
+		});
+	</script>
 </html>
